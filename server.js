@@ -68,5 +68,4 @@ io.sockets.on('connection', socket => {
       connectionsWithPosts.set(data.id, usersSockets);
     }
   });
-  console.log(connectionsWithPosts);
 });
